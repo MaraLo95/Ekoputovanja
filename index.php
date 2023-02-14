@@ -497,9 +497,9 @@ if($_SESSION)
         <div class="row pt-5">
             <div class="col-lg-4 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
-                    <img src="img/log.png" alt="logo" class="logo">
+                    <img src="img/ekologow.png" alt="ekoputovanja" class="logo">
                 </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
+                <!-- <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p> -->
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
@@ -520,9 +520,9 @@ if($_SESSION)
             </div>
             <div class="col-lg-4 col-md-6 mb-5">
                 <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Kontaktirajte nas</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Beograd, Republika Srbija</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+38163 772</p>
+                <p><i class="fa fa-envelope mr-2"></i>office@ekoputovanja.com</p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
                 <div class="w-100">
                    
@@ -533,7 +533,7 @@ if($_SESSION)
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">Kaktus travel</a>. All Rights Reserved.</a>
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">EkoPutovanja</a></a>
                 </p>
             </div>
          

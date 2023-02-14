@@ -58,7 +58,7 @@ else
 
 <head>
     <meta charset="utf-8">
-    <title>TRAVELER - Free Travel Website Template</title>
+    <title>EkoPutovanja - Ponuda Putovanja</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -87,7 +87,7 @@ else
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <img src="img/log.png" alt="logo" class="logo">
+                    <img src="img/ekologo.png" alt="ekoputovanja" class="logo">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -132,7 +132,7 @@ else
   <!-- Packages Start -->
 
      <div class="homeca">
-  <div class="container-fluid py-5">
+  <div class="container-fluid py-2">
      <div>
         <form action="putovanja.html" method="post">
           <fieldset>
@@ -208,9 +208,9 @@ else
      </div>
     </div>
 
-        <div class="container-fluid py-5">
+        <div class="container-fluid py-2">
         <div class="col-lg-12">
-            <h1 style="text-align: center;">PUTOVANJA</h1>
+            <h1 class="mb-3" style="text-align: center;">PUTOVANJA</h1>
             <div class="row">
                 
 
@@ -262,11 +262,10 @@ else
      <!-- Footer Start -->
      <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
         <div class="row pt-5">
-            <div class="col-lg-4 col-md-6 mb-5">
+            <<div class="col-lg-4 col-md-6 mb-5">
                 <a href="" class="navbar-brand">
-                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
+                    <img src="img/ekologow.png" alt="ekoputovanja" class="logo">
                 </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
                 <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
                 <div class="d-flex justify-content-start">
                     <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
