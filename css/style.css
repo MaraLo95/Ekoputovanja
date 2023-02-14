@@ -147,9 +147,9 @@ input[type="checkbox"]{
   margin-left: 20px;
 }
 
-.logo{
-  width: 150px;
-  height: 150px;
+.logo {
+  width: 100px;
+  height: 100px;
 }
 
 #ime{
@@ -4096,10 +4096,12 @@ input[type="button"].btn-block {
 
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+  
 }
 
 .nav-tabs .nav-link {
   border: 1px solid transparent;
+  font-family: 'Signika', sans-serif;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
@@ -4117,6 +4119,7 @@ input[type="button"].btn-block {
   color: #495057;
   background-color: #F3F3F3;
   border-color: #dee2e6 #dee2e6 #F3F3F3;
+
 }
 
 .nav-tabs .dropdown-menu {
@@ -9664,8 +9667,10 @@ h6,
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
   color: #212121;
-  font-weight: 500;
+  font-weight: 300;
   outline: none;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -9721,7 +9726,8 @@ h6,
 .page-header {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-2.jpg), no-repeat center center;
   background-size: cover;
-}
+  
+ }
 
 .destination-item img {
   transition: .5s;

@@ -14,7 +14,7 @@ if($_SESSION)
 
 <head>
     <meta charset="utf-8">
-    <title>TRAVELER - Free Travel Website Template</title>
+    <title>Eko Putovanja - Turistricki agent</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
@@ -25,6 +25,10 @@ if($_SESSION)
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -43,7 +47,7 @@ if($_SESSION)
         <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
             <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
                 <a href="" class="navbar-brand">
-                    <img src="img/kaktus.png" alt="logo" class="logo">
+                    <img src="img/ekologo.png" alt="ekoputovanja" class="logo">
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -91,21 +95,21 @@ if($_SESSION)
         <div id="header-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="img/luvr1.jpg" alt="ekoputovanja pariz">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
-                            <h1 class="display-3 text-white mb-md-4">Let's Discover The World Together</h1>
+                            <h4 class="text-white text-uppercase mb-md-3">Putuj u grad ljubavi za samo 199 eur</h4>
+                            <h1 class="display-3 text-white mb-md-4">Poseti Pariz</h1>
                             <a href="putovanja.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Pogledaj više</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="img/malta.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
-                            <h1 class="display-3 text-white mb-md-4">Discover Amazing Places With Us</h1>
+                            <h4 class="text-white text-uppercase mb-md-3">Uzivaj na malti</h4>
+                            <h1 class="display-3 text-white mb-md-4">Otkrij stari grad i prelepe plaze</h1>
                             <a href="putovanja.html" class="btn btn-primary py-md-3 px-md-5 mt-2">Pogledaj više</a>
                         </div>
                     </div>
@@ -128,7 +132,7 @@ if($_SESSION)
 
     <section id="putovanja">
         <div class="container-fluid py-5">
-            <div class="container py-5">
+            <div class="container">
                 <div class="text-center mb-3 pb-3">
                     <h1 style="color: #7AB730;">DESTINACIJE</h1>
                 </div>
@@ -248,9 +252,18 @@ if($_SESSION)
                 </div>
                 <div class="col-lg-6 pt-5 pb-lg-5">
                     <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
-                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">About Us</h6>
-                        <h1 class="mb-3">We Provide Best Tour Packages In Your Budget</h1>
-                        <p>Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et erat sed diam duo</p>
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">O Nama</h6>
+                        <h1 class="mb-3">Putovanje Za Tebe</h1>
+                        <p>Mi se bavimo <b>Personalizovanim</b> individualnim i grupnim putovanjima. </p>
+                   
+                        <p>Kod nas mozete pronaci i vec postojece aranžmane sa exkluzivnim destinacijama. Sva putovanja ukljucuju avio prevoz.</p>
+                        <ul>
+                            <li class="li">Na osnovu vaših željenih destinacija i datuma pravimo aranžman specijalno za Vas</li>
+                            <li class="li">Ekskluzivne destinacije poput Maldiva, Sejšela..</li>
+                            <li class="li">Pokriveno osiguranje</li>
+                            <li class="li">Mogućnost organizovanja aerodromskog transfera</li>
+                        </ul>
+
                         <div class="row mb-4">
                             <div class="col-6">
                                 <img class="img-fluid" src="img/about-1.jpg" alt="">
@@ -259,7 +272,7 @@ if($_SESSION)
                                 <img class="img-fluid" src="img/rim2.jpg" alt="">
                             </div>
                         </div>
-                        <a href="putovanja.php" class="btn btn-primary mt-1">Pogledajte više</a>
+                        <a href="putovanja.php" class="btn btn-primary mt-1">Pogledajte Ponudu</a>
                     </div>
                 </div>
             </div>
@@ -271,7 +284,7 @@ if($_SESSION)
      
      <section id="usluge">
      <div class="container-fluid py-5 usluge">
-        <div class="container pt-5 pb-3">
+        <div class="container">
             <div class="text-center mb-3 pb-3">
                 <h1 style="color: #7AB730;">USLUGE</h1>
             </div>
@@ -288,14 +301,14 @@ if($_SESSION)
                     <div class="service-item bg-white text-center mb-2 py-5 px-4 kartica">
                         <i class="fa fa-2x fa-hotel mx-auto mb-4"></i>
                         <h5 class="mb-2 uslugeNaslov">Smeštaj</h5> <br>
-                        <p class="m-0 ">Veliki broj hotela i apartmana u ponudi.</p>
+                        <p class="m-0 ">Posedujemo veliki broj hotela i apartmana u ponudi.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4 col-sm-12">
                     <div class="service-item bg-white text-center mb-2 py-5 px-4 kartica">
                         <i class="fa fa-2x fa-user-shield mx-auto mb-4"></i>
                         <h5 class="mb-2 uslugeNaslov">Osiguranje</h5> <br>
-                        <p class="m-0 ">Obavite sve online.</p>
+                        <p class="m-0 ">Obavite sve online. Putno osiguranje ukljuceno u cenu.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
